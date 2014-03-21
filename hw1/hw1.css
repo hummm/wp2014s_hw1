@@ -1,0 +1,187 @@
+
+body{
+	 width: 1000px;
+    padding: 1em;
+    background-color: white;
+    box-shadow: #666 0px 2px 3px;   
+    margin: 5px auto;
+    }
+
+header{
+    height:160px;
+    margin: 0px auto;
+    background: url(http://donation.nccu.edu.tw/image/header_bg.jpg) no-repeat center ;
+}
+
+nav{
+   background: url(http://donation.nccu.edu.tw/image/navigation_bg.jpg) no-repeat  center; 
+  height: 25px;
+  float: left;
+  width: 100%;
+}
+
+#button{
+  margin: 0;
+  list-style: none;
+  font-size: 14px;   
+  height: 25px;
+}
+
+#button li {
+ background: url('http://donation.nccu.edu.tw/image/navigation_bg.jpg') no-repeat center ;
+ display: block;
+ float: left;
+ padding:2px;
+ letter-spacing: 2px;
+ border-left-width: 1px;
+ border-left-style: solid;
+ border-left-color: #FFF;
+}
+    
+#button li a {
+  background-color:#374F69;
+  display: inline;
+  width: 160px;
+  height: 22px;
+  padding-bottom:2px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#button :hover{
+ background-color:black;
+}
+
+
+#main{
+  float:left;
+  width: 600px;
+  padding: 2em 1em;
+  }
+#letter{
+  padding-top: 5px;
+ } 
+
+#slogan{
+  font-size: 15px;
+}
+
+.bluefont{
+  color:#005DBE;
+}
+
+#donate{
+   width: 600px;
+   color:#666;
+   font: 16px/2 ;
+   background: url(http://donation.nccu.edu.tw/userfiles/image/background%282%29.jpg) no-repeat;
+}
+
+#give2asia{
+  width:100px;
+}
+
+#report{
+   padding:1em 0px ;
+   height: 300px;
+   width: 600px;
+   background: url(http://donation.nccu.edu.tw/userfiles/image/background%282%29.jpg);
+}
+
+
+#sidebar{
+ float: right;
+ width: 230px;
+ margin: 20px 15px 30px 0px;
+}
+
+#news{
+  border:1px solid #CECDFF;
+  padding: 10px;
+  margin:5px;
+  width:200px;
+  height:150px;
+  color:dimgray;
+}
+
+#news h4{
+  color: #BE0200;
+}
+
+.ad div{
+  float:center;
+  width:200px;  
+}
+.ad ul{
+  padding: 5px;
+  margin: 10px 10px 10px 5px;
+  list-style:none;
+ }
+.ad li{
+   padding: 5px ;
+ }
+
+#otherlinks{
+  padding:30px;
+  background: url(bird_with_tree.jpg) no-repeat scroll center top transparent;
+  height:200px;
+}
+#otherlinks h4{
+  color: #BE0200;
+}
+
+
+.content ul {
+    
+    margin:0px;
+    padding:0px;  
+    list-style-type: none;    
+}
+
+
+.content li {
+ height: 30px;
+ width: 170px;
+ display: inline-block;
+ background-color:#EBEBFF ;
+ font-size:12px;
+ border-bottom: 1px solid #CCC;
+}
+
+.content li a{
+ height: 30px;
+ width: 170px;
+ display: inline-block;
+ background-color:#F2F8F8;
+ font-size:12px;
+ color:#4682b4;
+ text-decoration: none;
+ text-align:left;
+ line-height:30px
+}
+
+.content :hover{
+ color:#3cb371;
+ background-color:#EAEAEA;
+}
+
+footer{
+    clear:both;
+    margin: 20px 0px 0px;
+    padding: 5px;
+    background-color:#EAEAEA;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    line-height: 2em;
+    text-decoration: none;
+    border-top: 1px solid #CCC;
+  }
+footer a{
+   color: black;
+}
+
+footer :hover{
+   color: white;
+   background-color:grey;
+}
